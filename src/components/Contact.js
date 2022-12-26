@@ -12,7 +12,7 @@ const Contact = () => {
           <table className="table table-striped boder">
 
             <tbody>
-              <tr>
+              <tr className='p-5'>
                 <th scope="row"></th>
                 <td>PhoneNo</td>
                 <td>9597644951</td>

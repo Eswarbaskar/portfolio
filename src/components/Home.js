@@ -24,23 +24,27 @@ const Home = () => {
               focused on building responsive User interface.
             </p>
             <div>
-              
-                <button className='bg-light' 
-                  href="https://drive.google.com/file/d/1Z6DYsh-SGfXUNJH9sVAVSOxW77NjSQOS/view?usp=drivesdk"
-                  
-                >
-                  View CV <HiArrowNarrowRight className="ml-3"/>
-                </button>
-                {/* <span>
-                  <button
-                    href="https://drive.google.com/file/d/1Z6DYsh-SGfXUNJH9sVAVSOxW77NjSQOS/view?usp=drivesdk"
-                    
-                  >
-                    
-                  </button>
-                </span> */}
-              
-            </div>
+          <button className="">
+            <a
+              href="https://drive.google.com/file/d/1Z6DYsh-SGfXUNJH9sVAVSOxW77NjSQOS/view?usp=drivesdk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className='link-secondary'
+            >
+              <span className='text-dark'>View certificate</span>
+            </a>
+            <span>
+              <a
+                href="https://drive.google.com/file/d/1Z6DYsh-SGfXUNJH9sVAVSOxW77NjSQOS/view?usp=drivesdk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className='link-dark'
+              >
+                <HiArrowNarrowRight className="ml-3" />
+              </a>
+            </span>
+          </button>
+        </div>
           </div>
         
       </div>
